@@ -22,7 +22,20 @@ body{
     letter-spacing: 1px;
 }
 .title{font-weight: bold;text-align: center;}
-@media screen and (max-width:600px) {
-    .head{font-size: 24px;}
-    .content{width: 100%;/*手機像素約落在320-400px之間*/ text-align: center;}
+@media (max-width:1250px){
+    .line{
+        flex-wrap: wrap;
+    }
+    .content{
+        width: 45%;
+    }
+}
+@media (max-width:500px){
+    /*螢幕寬度小於500px，套用這個區塊的CSS*/
+    .line{
+        width: 90%
+    }
+    .content{
+        width:45%;
+    }
 }
