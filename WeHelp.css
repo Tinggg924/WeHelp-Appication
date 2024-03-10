@@ -22,22 +22,18 @@ body{
     letter-spacing: 1px;
 }
 .title{font-weight: bold;text-align: center;}
+
 @media (max-width:1250px){
     .line{
-        flex-wrap: wrap;
-    }
+        font-size: 25px;}
     .content{
-        width: 45%;
-    }
+        width: 45%;}
 }
 @media (max-width:500px){
-    /*螢幕寬度小於500px，套用這個區塊的CSS*/
     .line{
         font-size: 15px;
-        width: 90%
-    }
+        width: 90%}
     .content{
         font-size: 5px;
-        width: 90%;;
-    }
+        width: 90%;;}
     }
