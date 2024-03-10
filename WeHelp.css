@@ -18,17 +18,18 @@ body{
 .content{
     border: 2px dashed; margin-top: 5px; margin-bottom: 5px;
     padding: 5px;
-    width: auto;
+    width: 90%;
     letter-spacing: 1px;
 }
 .title{font-weight: bold;text-align: center;}
 
 @media (max-width:1250px){
     .line{
-        font-size: 25px;
+        font-size: 30px;
     }
     .content{
-        width: 45%;}
+        font-size: 25px;
+        width: 90%;}
 }
 @media (max-width:500px){
     .line{
